@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\bin\Debug\net7.0\ArrayPractice.exe
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\bin\Debug\net7.0\ArrayPractice.deps.json
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\bin\Debug\net7.0\ArrayPractice.runtimeconfig.json
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\bin\Debug\net7.0\ArrayPractice.dll
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\bin\Debug\net7.0\ArrayPractice.pdb
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.AssemblyInfo.cs
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.dll
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\refint\ArrayPractice.dll
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.pdb
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ArrayPractice.genruntimeconfig.cache
+F:\DevSkill\csharp project\ArrayPractice\ArrayPractice\obj\Debug\net7.0\ref\ArrayPractice.dll
