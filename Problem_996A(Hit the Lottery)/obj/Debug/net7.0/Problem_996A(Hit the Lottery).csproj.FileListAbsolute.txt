@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\bin\Debug\net7.0\Problem_996A(Hit the Lottery).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\bin\Debug\net7.0\Problem_996A(Hit the Lottery).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\bin\Debug\net7.0\Problem_996A(Hit the Lottery).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\bin\Debug\net7.0\Problem_996A(Hit the Lottery).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\bin\Debug\net7.0\Problem_996A(Hit the Lottery).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\refint\Problem_996A(Hit the Lottery).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\Problem_996A(Hit the Lottery).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_996A(Hit the Lottery)\obj\Debug\net7.0\ref\Problem_996A(Hit the Lottery).dll

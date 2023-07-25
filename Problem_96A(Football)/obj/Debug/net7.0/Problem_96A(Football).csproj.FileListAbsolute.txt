@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\bin\Debug\net7.0\Problem_96A(Football).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\bin\Debug\net7.0\Problem_96A(Football).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\bin\Debug\net7.0\Problem_96A(Football).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\bin\Debug\net7.0\Problem_96A(Football).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\bin\Debug\net7.0\Problem_96A(Football).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\refint\Problem_96A(Football).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\Problem_96A(Football).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_96A(Football)\obj\Debug\net7.0\ref\Problem_96A(Football).dll

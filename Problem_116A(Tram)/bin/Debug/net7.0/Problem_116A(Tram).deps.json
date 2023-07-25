@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Problem_116A(Tram)/1.0.0": {
+        "runtime": {
+          "Problem_116A(Tram).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Problem_116A(Tram)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

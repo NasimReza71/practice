@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Problem_705A(Hulk)/1.0.0": {
+        "runtime": {
+          "Problem_705A(Hulk).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Problem_705A(Hulk)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_1030A(In Search of an Easy Problem)\obj\Debug\net7.0\Problem_1030A(In Search of an Easy Problem).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_1030A(In Search of an Easy Problem)\obj\Debug\net7.0\Problem_1030A(In Search of an Easy Problem).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_1030A(In Search of an Easy Problem)\obj\Debug\net7.0\Problem_1030A(In Search of an Easy Problem).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_1030A(In Search of an Easy Problem)\obj\Debug\net7.0\Problem_1030A(In Search of an Easy Problem).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_1030A(In Search of an Easy Problem)\obj\Debug\net7.0\Problem_1030A(In Search of an Easy Problem).csproj.CoreCompileInputs.cache

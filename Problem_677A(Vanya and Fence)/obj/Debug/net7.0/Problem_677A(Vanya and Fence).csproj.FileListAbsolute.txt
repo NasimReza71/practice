@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\bin\Debug\net7.0\Problem_677A(Vanya and Fence).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\bin\Debug\net7.0\Problem_677A(Vanya and Fence).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\bin\Debug\net7.0\Problem_677A(Vanya and Fence).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\bin\Debug\net7.0\Problem_677A(Vanya and Fence).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\bin\Debug\net7.0\Problem_677A(Vanya and Fence).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\refint\Problem_677A(Vanya and Fence).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\Problem_677A(Vanya and Fence).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_677A(Vanya and Fence)\obj\Debug\net7.0\ref\Problem_677A(Vanya and Fence).dll

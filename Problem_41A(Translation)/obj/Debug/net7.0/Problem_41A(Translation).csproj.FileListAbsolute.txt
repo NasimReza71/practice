@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\bin\Debug\net7.0\Problem_41A(Translation).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\bin\Debug\net7.0\Problem_41A(Translation).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\bin\Debug\net7.0\Problem_41A(Translation).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\bin\Debug\net7.0\Problem_41A(Translation).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\bin\Debug\net7.0\Problem_41A(Translation).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\refint\Problem_41A(Translation).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\Problem_41A(Translation).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_41A(Translation)\obj\Debug\net7.0\ref\Problem_41A(Translation).dll

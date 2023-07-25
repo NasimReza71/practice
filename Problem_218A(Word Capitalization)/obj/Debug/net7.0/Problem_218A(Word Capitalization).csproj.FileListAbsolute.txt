@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\bin\Debug\net7.0\Problem_218A(Word Capitalization).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\bin\Debug\net7.0\Problem_218A(Word Capitalization).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\bin\Debug\net7.0\Problem_218A(Word Capitalization).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\bin\Debug\net7.0\Problem_218A(Word Capitalization).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\bin\Debug\net7.0\Problem_218A(Word Capitalization).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\refint\Problem_218A(Word Capitalization).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\Problem_218A(Word Capitalization).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_218A(Word Capitalization)\obj\Debug\net7.0\ref\Problem_218A(Word Capitalization).dll

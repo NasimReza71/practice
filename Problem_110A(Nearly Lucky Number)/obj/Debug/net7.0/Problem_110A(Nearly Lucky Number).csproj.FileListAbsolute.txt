@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\bin\Debug\net7.0\Problem_110A(Nearly Lucky Number).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\bin\Debug\net7.0\Problem_110A(Nearly Lucky Number).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\bin\Debug\net7.0\Problem_110A(Nearly Lucky Number).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\bin\Debug\net7.0\Problem_110A(Nearly Lucky Number).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\bin\Debug\net7.0\Problem_110A(Nearly Lucky Number).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\refint\Problem_110A(Nearly Lucky Number).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\Problem_110A(Nearly Lucky Number).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_110A(Nearly Lucky Number)\obj\Debug\net7.0\ref\Problem_110A(Nearly Lucky Number).dll

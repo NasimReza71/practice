@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Problem_785A(Anton and Polyhedrons)/1.0.0": {
+        "runtime": {
+          "Problem_785A(Anton and Polyhedrons).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Problem_785A(Anton and Polyhedrons)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

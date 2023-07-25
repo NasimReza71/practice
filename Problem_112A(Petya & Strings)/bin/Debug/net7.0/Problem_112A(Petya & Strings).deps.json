@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Problem_112A(Petya & Strings)/1.0.0": {
+        "runtime": {
+          "Problem_112A(Petya & Strings).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Problem_112A(Petya & Strings)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

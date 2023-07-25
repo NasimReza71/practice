@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\bin\Debug\net7.0\Problem_705A(Hulk).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\bin\Debug\net7.0\Problem_705A(Hulk).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\bin\Debug\net7.0\Problem_705A(Hulk).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\bin\Debug\net7.0\Problem_705A(Hulk).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\bin\Debug\net7.0\Problem_705A(Hulk).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\refint\Problem_705A(Hulk).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\Problem_705A(Hulk).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_705A(Hulk)\obj\Debug\net7.0\ref\Problem_705A(Hulk).dll

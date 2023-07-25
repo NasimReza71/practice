@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\bin\Debug\net7.0\Problem_116A(Tram).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\bin\Debug\net7.0\Problem_116A(Tram).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\bin\Debug\net7.0\Problem_116A(Tram).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\bin\Debug\net7.0\Problem_116A(Tram).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\bin\Debug\net7.0\Problem_116A(Tram).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\refint\Problem_116A(Tram).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\Problem_116A(Tram).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_116A(Tram)\obj\Debug\net7.0\ref\Problem_116A(Tram).dll

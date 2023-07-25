@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\bin\Debug\net7.0\Problem_785A(Anton and Polyhedrons).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\bin\Debug\net7.0\Problem_785A(Anton and Polyhedrons).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\bin\Debug\net7.0\Problem_785A(Anton and Polyhedrons).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\bin\Debug\net7.0\Problem_785A(Anton and Polyhedrons).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\bin\Debug\net7.0\Problem_785A(Anton and Polyhedrons).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\refint\Problem_785A(Anton and Polyhedrons).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\Problem_785A(Anton and Polyhedrons).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_785A(Anton and Polyhedrons)\obj\Debug\net7.0\ref\Problem_785A(Anton and Polyhedrons).dll

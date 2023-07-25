@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\bin\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\bin\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\bin\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\bin\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\bin\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\refint\Problem_228A(Is your horseshoe on the other hoof).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\Problem_228A(Is your horseshoe on the other hoof).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_228A(Is your horseshoe on the other hoof)\obj\Debug\net7.0\ref\Problem_228A(Is your horseshoe on the other hoof).dll

@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\bin\Debug\net7.0\Problem_266A(Stones on the Table).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\bin\Debug\net7.0\Problem_266A(Stones on the Table).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\bin\Debug\net7.0\Problem_266A(Stones on the Table).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\bin\Debug\net7.0\Problem_266A(Stones on the Table).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\bin\Debug\net7.0\Problem_266A(Stones on the Table).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\refint\Problem_266A(Stones on the Table).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\Problem_266A(Stones on the Table).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_266A(Stones on the Table)\obj\Debug\net7.0\ref\Problem_266A(Stones on the Table).dll

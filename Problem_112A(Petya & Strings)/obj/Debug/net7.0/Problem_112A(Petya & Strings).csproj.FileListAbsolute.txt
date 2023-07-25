@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\bin\Debug\net7.0\Problem_112A(Petya & Strings).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\bin\Debug\net7.0\Problem_112A(Petya & Strings).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\bin\Debug\net7.0\Problem_112A(Petya & Strings).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\bin\Debug\net7.0\Problem_112A(Petya & Strings).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\bin\Debug\net7.0\Problem_112A(Petya & Strings).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\refint\Problem_112A(Petya & Strings).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\Problem_112A(Petya & Strings).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_112A(Petya & Strings)\obj\Debug\net7.0\ref\Problem_112A(Petya & Strings).dll

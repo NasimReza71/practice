@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\bin\Debug\net7.0\Problem_133A(HQ9+).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\bin\Debug\net7.0\Problem_133A(HQ9+).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\bin\Debug\net7.0\Problem_133A(HQ9+).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\bin\Debug\net7.0\Problem_133A(HQ9+).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\bin\Debug\net7.0\Problem_133A(HQ9+).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\refint\Problem_133A(HQ9+).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\Problem_133A(HQ9+).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_133A(HQ9+)\obj\Debug\net7.0\ref\Problem_133A(HQ9+).dll

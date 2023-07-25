@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\bin\Debug\net7.0\Problem_734A(Anton and Danik).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\bin\Debug\net7.0\Problem_734A(Anton and Danik).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\bin\Debug\net7.0\Problem_734A(Anton and Danik).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\bin\Debug\net7.0\Problem_734A(Anton and Danik).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\bin\Debug\net7.0\Problem_734A(Anton and Danik).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\refint\Problem_734A(Anton and Danik).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\Problem_734A(Anton and Danik).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_734A(Anton and Danik)\obj\Debug\net7.0\ref\Problem_734A(Anton and Danik).dll

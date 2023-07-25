@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\bin\Debug\net7.0\Problem_282A(Bit++).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\bin\Debug\net7.0\Problem_282A(Bit++).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\bin\Debug\net7.0\Problem_282A(Bit++).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\bin\Debug\net7.0\Problem_282A(Bit++).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\bin\Debug\net7.0\Problem_282A(Bit++).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\refint\Problem_282A(Bit++).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\Problem_282A(Bit++).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_282A(Bit++)\obj\Debug\net7.0\ref\Problem_282A(Bit++).dll

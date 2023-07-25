@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\bin\Debug\net7.0\Problem_467A(George and Accommodation).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\bin\Debug\net7.0\Problem_467A(George and Accommodation).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\bin\Debug\net7.0\Problem_467A(George and Accommodation).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\bin\Debug\net7.0\Problem_467A(George and Accommodation).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\bin\Debug\net7.0\Problem_467A(George and Accommodation).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\refint\Problem_467A(George and Accommodation).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\Problem_467A(George and Accommodation).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_467A(George and Accommodation)\obj\Debug\net7.0\ref\Problem_467A(George and Accommodation).dll

@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\bin\Debug\net7.0\Problem_141A(Amusing Joke).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\bin\Debug\net7.0\Problem_141A(Amusing Joke).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\bin\Debug\net7.0\Problem_141A(Amusing Joke).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\bin\Debug\net7.0\Problem_141A(Amusing Joke).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\bin\Debug\net7.0\Problem_141A(Amusing Joke).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\refint\Problem_141A(Amusing Joke).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\Problem_141A(Amusing Joke).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_141A(Amusing Joke)\obj\Debug\net7.0\ref\Problem_141A(Amusing Joke).dll

@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\bin\Debug\net7.0\Problem_791A( Bear and Big Brother ).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\bin\Debug\net7.0\Problem_791A( Bear and Big Brother ).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\bin\Debug\net7.0\Problem_791A( Bear and Big Brother ).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\bin\Debug\net7.0\Problem_791A( Bear and Big Brother ).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\bin\Debug\net7.0\Problem_791A( Bear and Big Brother ).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\refint\Problem_791A( Bear and Big Brother ).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\Problem_791A( Bear and Big Brother ).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_791A( Bear and Big Brother )\obj\Debug\net7.0\ref\Problem_791A( Bear and Big Brother ).dll

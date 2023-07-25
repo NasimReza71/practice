@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\bin\Debug\net7.0\Problem_344A(Magnets).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\bin\Debug\net7.0\Problem_344A(Magnets).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\bin\Debug\net7.0\Problem_344A(Magnets).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\bin\Debug\net7.0\Problem_344A(Magnets).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\bin\Debug\net7.0\Problem_344A(Magnets).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\refint\Problem_344A(Magnets).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\Problem_344A(Magnets).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_344A(Magnets)\obj\Debug\net7.0\ref\Problem_344A(Magnets).dll

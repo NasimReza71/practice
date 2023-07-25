@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\bin\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\bin\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\bin\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\bin\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\bin\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\refint\Problem_61A(Ultra-Fast Mathematician).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\Problem_61A(Ultra-Fast Mathematician).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_61A(Ultra-Fast Mathematician)\obj\Debug\net7.0\ref\Problem_61A(Ultra-Fast Mathematician).dll

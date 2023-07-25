@@ -1,0 +1,15 @@
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\bin\Debug\net7.0\Problem_208A(Dubstep).exe
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\bin\Debug\net7.0\Problem_208A(Dubstep).deps.json
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\bin\Debug\net7.0\Problem_208A(Dubstep).runtimeconfig.json
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\bin\Debug\net7.0\Problem_208A(Dubstep).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\bin\Debug\net7.0\Problem_208A(Dubstep).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).csproj.AssemblyReference.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).GeneratedMSBuildEditorConfig.editorconfig
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).AssemblyInfoInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).AssemblyInfo.cs
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).csproj.CoreCompileInputs.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\refint\Problem_208A(Dubstep).dll
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).pdb
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\Problem_208A(Dubstep).genruntimeconfig.cache
+F:\DevSkill\csharp project\Assignment 1\Problem_520A(Pangram)\obj\Debug\net7.0\ref\Problem_208A(Dubstep).dll
