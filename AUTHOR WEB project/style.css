@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+li{
+  font-family: sans-serif;
+}
+
+
+body{
+  color:  #141414;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+
+
+
+.container{
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.main-header{
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+  
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+
+
+article{
+  margin-bottom: 60px;
+}
+
+.post-header{
+  margin-bottom: 40px;
+}
+
+
+
+aside{
+  background-color: #f7f7f7;
+  border-top: 5PX solid #20dfa6;
+  border-bottom: 5PX solid #20dfa6;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
+
+h1, h2, h3{
+  color: #20dfa6;
+}
+
+
+h1{
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style:italic;
+}
+
+h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+  
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  
+  
+}
+
+
+h4{
+  font-size: 20px;
+  
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p{
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  /* margin-bottom: 20px; */
+  /* display: inline; */
+}
+
+
+ul, ol{
+  margin-left: 50px;
+}
+
+
+li{
+  font-size: 20px ;
+  margin-bottom: 10px;
+  /* display: inline; */
+
+
+}
+li:last-child{
+  margin-bottom: 0;
+}
+
+
+/*
+footer p{
+  font-size: 16px;
+}
+
+/*
+article header p{
+  font-style: italic;
+}
+  */
+
+#author{
+  font-style: italic;
+  font-size: 18px;
+}
+
+#Copyright{
+  font-size: 16px;
+}
+
+.related-author{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+.related-ul{
+  list-style: none;
+}
+
+h4 strong{
+  color: yellowgreen;
+}
+
+
+.related-why{
+  color: green;
+  cursor: alias;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+
+
+body{
+  /*background-color: orange;*/
+}
+
+
+li:first-child{
+  color: red;
+}
+
+li:nth-child(even){
+  color: blue;
+}
+
+
+/* misconception: this wont work */
+article p:first-child{
+  color: red;
+}
+
+
+/* Stykling Links*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+
+}
+
+a:visited{
+  color: #1098ad;
+}
+
+
+a:hover{
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+
+a:active{
+  background-color: black;
+  font-style: italic;
+}
+
+
+.post-image{
+  width: 100%;
+  height: auto;
+}
+
+
+nav a:link{
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+
+nav a:link:last-child{
+  margin-right: 0;
+
+}
+
+
+
+button{
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  /* top:  50px;
+  left: 50px; */
+
+  bottom: 50px;
+  right: 50px;
+}
+
+
+
+h1::first-letter{
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2{
+  position: relative;
+}
+
+
+h3 + p::first-line{
+  /* color:  red; */
+}
+
+
+h2::after{
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+  color: #ff0000;
+
+
+}
+
+
+
+/*resloving conflics
+#copyright{
+  color: red;
+  
+}
+
+.copyright{
+  color: blue;
+}
+
+.text{
+  color: yellow;
+}
+
+footer p{
+  color: green !important;
+}
+  */
+
+
+
+  /* Floats */
+
+
+.author-image{
+  float:left;
+  margin-bottom: 20px;
+}
+
+
+#author
+{
+  /* padding-left: 80px; */
+  float: right;
+  /* padding-top: 10px; */
+  margin-top: 10px;;
+  margin-left: 20px;
+}
+
+h1{
+  float: left;
+
+}
+
+nav{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+.clearfix::after{
+clear: both;
+content: "";
+display:block;
+}
+
+
+article{
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+}
+
+aside{
+/* background-color: red; */
+width: 300px;
+float: right;
+}
+
+footer{
+/* background-color: yellow; */
+clear: both;
+}
