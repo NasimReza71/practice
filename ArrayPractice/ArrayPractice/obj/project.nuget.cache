@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IzY9p4ab2qB8neS9uydnu8gS7Kkl6KcqEHBHd5rQOR+6HW4YFFR9YjzcJjHVqS7kxa07uAKhe51QImftnvb8UQ==",
+  "dgSpecHash": "0+wjcXude/o=",
   "success": true,
-  "projectFilePath": "F:\\DevSkill\\csharp project\\ArrayPractice\\ArrayPractice\\ArrayPractice.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Nasim Reza\\Desktop\\practice\\ArrayPractice\\ArrayPractice\\ArrayPractice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nasim Reza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Nasim Reza\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Nasim Reza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Nasim Reza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
