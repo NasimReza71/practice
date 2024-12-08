@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\attendancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\migrations\\attendancecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\attendancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\migrations\\attendancecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\migrations\\attendancecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\attendancesystem\\attendancesystem\\migrations\\20240725064342_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\nasim reza\\desktop\\git\\practice\\attendancesystem\\attendancesystem\\migrations\\20240725064342_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A51B7412-631C-49BA-B053-01B9C0029873}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\migrations\\20240725064342_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,43 +66,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Schedule.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Schedule.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Schedule.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Schedule.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Schedule.cs",
               "RelativeToolTip": "AttendanceSystem\\Schedule.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAzwBMAAAAAAAAA",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T07:54:55.703Z"
+              "WhenOpened": "2024-08-08T07:54:55.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Program.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Program.cs",
-              "RelativeToolTip": "AttendanceSystem\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:34:33.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Student.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Student.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Student.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Student.cs",
               "RelativeToolTip": "AttendanceSystem\\Student.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\StudentService.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\StudentService.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\StudentService.cs",
               "RelativeToolTip": "AttendanceSystem\\StudentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,11 +119,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Teacher.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Teacher.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Teacher.cs",
               "RelativeToolTip": "AttendanceSystem\\Teacher.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAkwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,11 +131,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TeacherService.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\TeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\TeacherService.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\TeacherService.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\TeacherService.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\TeacherService.cs",
               "RelativeToolTip": "AttendanceSystem\\TeacherService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,28 +143,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AttendanceContext.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceContext.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceContext.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceContext.cs",
-              "RelativeToolTip": "AttendanceSystem\\AttendanceContext.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwCsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:49:25.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "DocumentIndex": 1,
+              "Title": "AttendanceSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceSystem.csproj",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+              "RelativeToolTip": "AttendanceSystem\\AttendanceSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-25T04:38:47.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeToolTip": "AttendanceSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:34:33.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceContext.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceContext.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceContext.cs",
+              "RelativeToolTip": "AttendanceSystem\\AttendanceContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:49:25.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Course.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Course.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Course.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Course.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Course.cs",
               "RelativeToolTip": "AttendanceSystem\\Course.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAswBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Attendance.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Attendance.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Attendance.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Attendance.cs",
               "RelativeToolTip": "AttendanceSystem\\Attendance.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAuwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AdminService.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\AdminService.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AdminService.cs",
               "RelativeToolTip": "AttendanceSystem\\AdminService.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAgwLkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Admin.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Admin.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Admin.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Admin.cs",
               "RelativeToolTip": "AttendanceSystem\\Admin.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,23 +227,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AttendanceSystem.csproj",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
-              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceSystem.csproj",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
-              "RelativeToolTip": "AttendanceSystem\\AttendanceSystem.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-25T04:38:47.288Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
               "Title": "20240725064342_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Migrations\\20240725064342_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Migrations\\20240725064342_Initial.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Migrations\\20240725064342_Initial.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Migrations\\20240725064342_Initial.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Migrations\\20240725064342_Initial.cs",
               "RelativeToolTip": "AttendanceSystem\\Migrations\\20240725064342_Initial.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,9 +241,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "AttendanceContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Migrations\\AttendanceContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Migrations\\AttendanceContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Migrations\\AttendanceContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\Migrations\\AttendanceContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\Migrations\\AttendanceContextModelSnapshot.cs",
               "RelativeToolTip": "AttendanceSystem\\Migrations\\AttendanceContextModelSnapshot.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

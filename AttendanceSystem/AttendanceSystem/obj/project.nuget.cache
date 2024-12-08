@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PJ02SEq9VfI=",
+  "dgSpecHash": "e/7ArpRoqx4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+  "projectFilePath": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nasim Reza\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nasim Reza\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

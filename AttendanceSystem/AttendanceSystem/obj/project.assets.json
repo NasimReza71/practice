@@ -4107,19 +4107,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nasim Reza\\.nuget\\packages\\": {}
+    "C:\\Users\\Nasim Reza\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
       "projectName": "AttendanceSystem",
-      "projectPath": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+      "projectPath": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
       "packagesPath": "C:\\Users\\Nasim Reza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nasim Reza\\Desktop\\AttendanceSystem\\AttendanceSystem\\obj\\",
+      "outputPath": "C:\\Users\\Nasim Reza\\Desktop\\GIT\\practice\\AttendanceSystem\\AttendanceSystem\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Nasim Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4144,7 +4149,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4187,7 +4193,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
