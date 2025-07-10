@@ -1,0 +1,863 @@
+2025-07-09 18:37:52.280 +06:00 [INF] Application Starting...17-jan
+2025-07-09 18:37:52.319 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 18:37:52.319 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 18:37:56.687 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:37:56.708 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:38:07.142 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 18:38:20.091 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:38:20.094 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:38:22.440 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:38:22.442 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:38:28.539 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:38:28.541 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:38:32.463 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:38:32.465 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:55:57.941 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 171
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:62822661-4fb4-4d6c-bd3f-71280e245c3f
+Error Number:2812,State:62,Class:16
+2025-07-09 18:55:59.355 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 171
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:62822661-4fb4-4d6c-bd3f-71280e245c3f
+Error Number:2812,State:62,Class:16
+2025-07-09 18:56:24.813 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 171
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:62822661-4fb4-4d6c-bd3f-71280e245c3f
+Error Number:2812,State:62,Class:16
+2025-07-09 18:59:43.695 +06:00 [INF] Application Starting...17-jan
+2025-07-09 18:59:43.728 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 18:59:43.728 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 18:59:45.958 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:59:45.978 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:59:50.106 +06:00 [INF] This is Nasim Reza
+2025-07-09 18:59:50.108 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 18:59:53.891 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:03:19.320 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:03:19.364 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:03:19.364 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:03:22.381 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:03:22.397 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:03:25.879 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:03:25.880 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:03:36.303 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:03:40.033 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetPurchases' expects parameter '@Total', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 116
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 57
+ClientConnectionId:889edbd7-af2c-4049-8680-dd3c5912f27c
+Error Number:201,State:4,Class:16
+2025-07-09 19:03:40.626 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 144
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 24
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 53
+ClientConnectionId:889edbd7-af2c-4049-8680-dd3c5912f27c
+Error Number:2812,State:62,Class:16
+2025-07-09 19:10:35.874 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:10:35.911 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:10:35.912 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:10:38.322 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:10:38.338 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:10:42.796 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:10:51.201 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetPurchases' expects parameter '@Total', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 116
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 57
+ClientConnectionId:6f1dfe0e-cf45-4b4e-8122-b9a333f4cc3f
+Error Number:201,State:4,Class:16
+2025-07-09 19:10:51.743 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 200
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 105
+ClientConnectionId:6f1dfe0e-cf45-4b4e-8122-b9a333f4cc3f
+Error Number:2812,State:62,Class:16
+2025-07-09 19:10:58.371 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 200
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 105
+ClientConnectionId:6f1dfe0e-cf45-4b4e-8122-b9a333f4cc3f
+Error Number:2812,State:62,Class:16
+2025-07-09 19:13:08.705 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:13:08.736 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:13:08.736 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:13:11.128 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:13:11.144 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:13:13.647 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:13:13.648 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:17:52.587 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:17:52.619 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:17:52.619 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:17:54.955 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:17:54.971 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:21:55.963 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:21:55.995 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:21:55.995 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:21:58.306 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:21:58.321 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:22:04.816 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:36:50.820 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:36:50.856 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:36:50.857 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:36:53.239 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:36:53.254 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:36:57.466 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:36:57.467 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:37:08.308 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:37:10.743 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 144
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 24
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 53
+ClientConnectionId:48e3ac1a-d216-480c-8939-4e8cca7040a4
+Error Number:2812,State:62,Class:16
+2025-07-09 19:39:24.108 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:39:24.141 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:39:24.142 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:39:26.539 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:39:26.555 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:39:29.762 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:39:29.764 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:39:33.767 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:39:33.769 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:39:36.935 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:40:21.348 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:40:21.350 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:40:24.441 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:40:24.443 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:42:05.252 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:42:05.254 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:42:10.219 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:42:10.221 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:44:02.518 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:44:02.520 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:44:10.899 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:44:10.901 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:44:21.006 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:44:21.008 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:44:30.840 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:44:30.841 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:45:44.066 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:45:44.068 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:45:54.057 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:45:54.099 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:45:54.099 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:45:57.022 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:45:57.040 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:46:12.189 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:46:12.191 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:46:13.764 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:46:13.766 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:46:18.090 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:46:18.092 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:46:20.852 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 19:52:26.623 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:52:26.657 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:52:26.657 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:52:29.113 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:52:29.130 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:56:52.280 +06:00 [INF] Application Starting...17-jan
+2025-07-09 19:56:52.315 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 19:56:52.315 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 19:56:55.091 +06:00 [INF] This is Nasim Reza
+2025-07-09 19:56:55.107 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 19:56:58.365 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_PublicLayout.cshtml': 'styles'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:04:56.917 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:04:56.952 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:04:56.952 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:04:59.360 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:04:59.376 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:05:09.394 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-09 20:16:54.599 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:16:54.631 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:16:54.631 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:16:56.979 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:16:56.996 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:26:40.108 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:26:40.143 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:26:40.143 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:26:42.377 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:26:42.392 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:32:52.967 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:32:53.001 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:32:53.002 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:32:55.341 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:32:55.364 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:33:01.927 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:33:01.939 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:34:22.012 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:34:22.016 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:34:23.185 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:34:23.190 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:34:23.913 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:34:23.919 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:34:24.268 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:34:24.273 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:34:26.658 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:34:26.661 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:34:35.964 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:34:35.968 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:36:13.502 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:36:13.535 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:36:13.535 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:36:16.063 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:36:16.079 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:47:15.620 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:47:15.653 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:47:15.653 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:47:18.433 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:47:18.453 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:47:50.944 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:47:50.954 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:48:27.381 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:48:27.418 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:48:27.418 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:48:29.751 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:48:29.767 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:48:54.639 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:48:54.651 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:49:42.699 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:49:42.705 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:49:43.595 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:49:43.600 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:49:43.985 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:49:43.989 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:49:44.193 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:49:44.197 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:49:44.555 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:49:44.559 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:50:45.862 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:50:45.900 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:50:45.900 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:50:48.338 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:50:48.353 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:51:00.732 +06:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Account/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2025-07-09 20:51:00.745 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:55:08.128 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:55:08.166 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:55:08.166 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:55:10.902 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:55:10.917 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:56:47.713 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:56:47.746 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:56:47.746 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:56:50.168 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:56:50.189 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:57:02.132 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_LoginLayout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:58:31.160 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_LoginLayout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:58:32.134 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_LoginLayout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:58:32.342 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_LoginLayout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:58:32.538 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_LoginLayout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 20:58:42.782 +06:00 [INF] Application Starting...17-jan
+2025-07-09 20:58:42.817 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 20:58:42.817 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 20:58:45.209 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:58:45.224 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:58:59.880 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:58:59.882 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 20:59:01.657 +06:00 [INF] This is Nasim Reza
+2025-07-09 20:59:01.658 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:00:55.077 +06:00 [INF] Application Starting...17-jan
+2025-07-09 21:00:55.111 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 21:00:55.111 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 21:00:57.685 +06:00 [INF] This is Nasim Reza
+2025-07-09 21:00:57.701 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:04:04.519 +06:00 [INF] Application Starting...17-jan
+2025-07-09 21:04:04.555 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 21:04:04.555 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 21:04:06.898 +06:00 [INF] This is Nasim Reza
+2025-07-09 21:04:06.914 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:06:54.741 +06:00 [INF] Application Starting...17-jan
+2025-07-09 21:06:54.778 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 21:06:54.778 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 21:06:58.021 +06:00 [INF] This is Nasim Reza
+2025-07-09 21:06:58.040 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:15:55.847 +06:00 [INF] Application Starting...17-jan
+2025-07-09 21:15:55.879 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 21:15:55.879 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 21:15:59.104 +06:00 [INF] This is Nasim Reza
+2025-07-09 21:15:59.124 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:21:07.274 +06:00 [INF] Application Starting...17-jan
+2025-07-09 21:21:07.306 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-09 21:21:07.306 +06:00 [ERR] An error occurred while starting the application.
+2025-07-09 21:21:10.356 +06:00 [INF] This is Nasim Reza
+2025-07-09 21:21:10.379 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:21:18.889 +06:00 [INF] This is Nasim Reza
+2025-07-09 21:21:18.891 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-09 21:21:21.628 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.

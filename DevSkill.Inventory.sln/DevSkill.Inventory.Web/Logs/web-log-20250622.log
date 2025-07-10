@@ -1,0 +1,271 @@
+2025-06-22 20:24:31.296 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:24:31.329 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:24:31.329 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:24:34.282 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:24:34.300 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:25:28.737 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:25:28.768 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:25:28.768 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:25:31.077 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:25:31.094 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:25:36.155 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method735(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:27:13.068 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method735(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model)
+2025-06-22 20:27:14.957 +06:00 [ERR] Error loading service sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetServiceSales' expects parameter '@TotalCount', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetServiceSalesSP(Int32 pageIndex, Int32 pageSize, String order, ServiceSaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 228
+   at DevSkill.Inventory.Application.Features.ServiceSales.Queries.GetServiceSalesSPQueryHandler.Handle(GetServiceSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ServiceSales\Queries\GetServiceSalesSPQueryHandler.cs:line 25
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServiceSalesController.GetServiceSalesJsonData(ServiceSaleListModel model)
+ClientConnectionId:015911c0-43b5-4817-92a2-939d9b1d9d9b
+Error Number:201,State:4,Class:16
+2025-06-22 20:27:17.708 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method735(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model)
+2025-06-22 20:27:19.180 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method735(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model)
+2025-06-22 20:29:36.809 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:29:36.833 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:29:36.834 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:29:37.491 +06:00 [FTL] Application crashed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Program.cs:line 94
+2025-06-22 20:29:51.989 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:29:52.013 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:29:52.013 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:29:52.542 +06:00 [FTL] Application crashed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Program.cs:line 94
+2025-06-22 20:42:47.232 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:42:47.271 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:42:47.272 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:42:49.740 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:42:49.756 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:42:57.507 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:42:58.731 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:42:59.176 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:43:00.708 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:43:04.316 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:43:04.999 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:43:05.434 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:43:08.142 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method775(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:43:52.309 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:43:52.349 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:43:52.349 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:43:54.647 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:43:54.664 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:44:00.222 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:45:36.839 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:45:59.594 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:46:00.373 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:46:00.724 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:46:01.075 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:46:01.407 +06:00 [ERR] Error loading transfer accounts
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransferAccountSearchModel -> TransferAccountSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.TransferAccounts.TransferAccountSearchModel -> DevSkill.Inventory.Domain.Dtos.TransferAccountSearchDto
+   at lambda_method771(Closure, Object, TransferAccountSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.TransferAccountsController.GetTransferAccountsJsonData(TransferAccountListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\TransferAccountsController.cs:line 37
+2025-06-22 20:46:28.906 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:46:28.950 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:46:28.951 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:46:31.343 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:46:31.359 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:49:20.024 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:49:20.060 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:49:20.061 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:49:22.524 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:49:22.539 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:52:11.657 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:52:11.700 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:52:11.700 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:52:14.048 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:52:14.070 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:52:41.353 +06:00 [INF] Application Starting...17-jan
+2025-06-22 20:52:41.393 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 20:52:41.394 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 20:52:43.621 +06:00 [INF] This is Nasim Reza
+2025-06-22 20:52:43.636 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-22 20:54:17.264 +06:00 [ERR] Error loading service sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetServiceSales' expects parameter '@TotalCount', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetServiceSalesSP(Int32 pageIndex, Int32 pageSize, String order, ServiceSaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 228
+   at DevSkill.Inventory.Application.Features.ServiceSales.Queries.GetServiceSalesSPQueryHandler.Handle(GetServiceSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ServiceSales\Queries\GetServiceSalesSPQueryHandler.cs:line 25
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServiceSalesController.GetServiceSalesJsonData(ServiceSaleListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServiceSalesController.cs:line 129
+ClientConnectionId:c0cf1b52-7777-4cd8-b9e5-c9fb70188a56
+Error Number:201,State:4,Class:16
+2025-06-22 20:54:18.449 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method820(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36
+2025-06-22 20:54:24.618 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method820(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36
+2025-06-22 21:04:18.785 +06:00 [INF] Application Starting...17-jan
+2025-06-22 21:04:18.823 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-22 21:04:18.824 +06:00 [ERR] An error occurred while starting the application.
+2025-06-22 21:04:22.408 +06:00 [INF] This is Nasim Reza
+2025-06-22 21:04:22.430 +06:00 [INF] This is a test log entry to verify database logging.

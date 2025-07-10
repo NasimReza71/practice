@@ -1,0 +1,16 @@
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\bin\Debug\net9.0\DevSkill.Inventory.Application.deps.json
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\bin\Debug\net9.0\DevSkill.Inventory.Application.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\bin\Debug\net9.0\DevSkill.Inventory.Application.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\bin\Debug\net9.0\DevSkill.Inventory.Domain.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\bin\Debug\net9.0\DevSkill.Inventory.Domain.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.csproj.AssemblyReference.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.AssemblyInfoInputs.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.AssemblyInfo.cs
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.csproj.CoreCompileInputs.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.sourcelink.json
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.3F374BE3.Up2Date
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\refint\DevSkill.Inventory.Application.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\DevSkill.Inventory.Application.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\obj\Debug\net9.0\ref\DevSkill.Inventory.Application.dll

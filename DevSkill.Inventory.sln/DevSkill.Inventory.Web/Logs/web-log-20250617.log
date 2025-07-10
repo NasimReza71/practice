@@ -1,0 +1,796 @@
+2025-06-17 12:44:34.133 +06:00 [INF] Application Starting...17-jan
+2025-06-17 12:44:34.171 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 12:44:34.171 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 12:44:42.087 +06:00 [INF] This is Nasim Reza
+2025-06-17 12:44:42.180 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 12:45:21.924 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:bd88a4ab-0366-48e6-a799-04c83d46937e
+Error Number:2812,State:62,Class:16
+2025-06-17 14:01:42.660 +06:00 [INF] Application Starting...17-jan
+2025-06-17 14:01:42.701 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 14:01:42.701 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 14:01:45.035 +06:00 [INF] This is Nasim Reza
+2025-06-17 14:01:45.053 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 14:02:00.592 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:03:45.950 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:03:48.030 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:03:55.527 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:03:58.671 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model)
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:04:06.742 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model)
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:04:07.524 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model)
+ClientConnectionId:d7b9ed7a-b9c2-45e7-afae-fadab6159ffd
+Error Number:2812,State:62,Class:16
+2025-06-17 14:26:19.015 +06:00 [INF] Application Starting...17-jan
+2025-06-17 14:26:19.038 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 14:26:19.038 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 14:26:19.595 +06:00 [FTL] Application crashed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Program.cs:line 94
+2025-06-17 14:27:54.548 +06:00 [INF] Application Starting...17-jan
+2025-06-17 14:27:54.571 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 14:27:54.572 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 14:27:55.080 +06:00 [FTL] Application crashed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Program.cs:line 94
+2025-06-17 14:31:51.904 +06:00 [INF] Application Starting...17-jan
+2025-06-17 14:31:51.946 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 14:31:51.946 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 14:31:55.421 +06:00 [INF] This is Nasim Reza
+2025-06-17 14:31:55.436 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 14:32:03.983 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:bdfb55b9-2f77-473b-b8f4-635e1c1fb932
+Error Number:2812,State:62,Class:16
+2025-06-17 15:00:43.792 +06:00 [INF] Application Starting...17-jan
+2025-06-17 15:00:43.843 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 15:00:43.844 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 15:00:46.702 +06:00 [INF] This is Nasim Reza
+2025-06-17 15:00:46.718 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 15:00:54.497 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetCustomers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 54
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 55
+ClientConnectionId:e77b3797-395e-45f7-be83-666461bcc49d
+Error Number:2812,State:62,Class:16
+2025-06-17 15:10:23.694 +06:00 [INF] Application Starting...17-jan
+2025-06-17 15:10:23.740 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 15:10:23.740 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 15:10:29.685 +06:00 [INF] This is Nasim Reza
+2025-06-17 15:10:29.704 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 15:23:42.672 +06:00 [INF] Application Starting...17-jan
+2025-06-17 15:23:42.728 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 15:23:42.729 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 15:23:45.717 +06:00 [INF] This is Nasim Reza
+2025-06-17 15:23:45.735 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 15:27:55.471 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 163
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 103
+ClientConnectionId:404302f3-7ce6-4688-b72f-91bbe9b8462d
+Error Number:2812,State:62,Class:16
+2025-06-17 15:46:43.739 +06:00 [INF] Application Starting...17-jan
+2025-06-17 15:46:43.770 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 15:46:43.770 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 15:46:46.454 +06:00 [INF] This is Nasim Reza
+2025-06-17 15:46:46.470 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 15:59:46.926 +06:00 [INF] Application Starting...17-jan
+2025-06-17 15:59:46.968 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 15:59:46.968 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 15:59:49.377 +06:00 [INF] This is Nasim Reza
+2025-06-17 15:59:49.393 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:03:32.262 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomerByIdQueryHandler.Handle(GetCustomerByIdQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomerByIdQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.ViewCustomer(Guid id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 16:12:28.067 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:12:28.101 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:12:28.101 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:12:29.991 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:12:30.006 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:20:58.130 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:20:58.161 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:20:58.161 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:21:00.483 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:21:00.501 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:21:07.402 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchases'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 86
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 55
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:08.010 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 114
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 51
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:08.598 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 141
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:09.223 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 170
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 103
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:09.537 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method840(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36
+2025-06-17 16:21:11.122 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method840(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36
+2025-06-17 16:21:11.949 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method840(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36
+2025-06-17 16:21:13.431 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 170
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 103
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:14.058 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 141
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:15.141 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 114
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 51
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:21:15.955 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchases'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 86
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 55
+ClientConnectionId:8c2a3f9d-d19d-40ff-a6dd-792fa4346311
+Error Number:2812,State:62,Class:16
+2025-06-17 16:26:33.163 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:26:33.201 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:26:33.201 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:26:35.423 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:26:35.443 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:27:20.631 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:27:20.677 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:27:20.677 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:27:22.980 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:27:22.999 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:28:44.029 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:28:44.063 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:28:44.064 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:28:46.564 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:28:46.579 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:30:10.613 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:30:10.645 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:30:10.645 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:30:13.123 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:30:13.139 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 16:31:31.669 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Areas_Admin_Views_Customers_ViewCustomer.ExecuteAsync() in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Views\Customers\ViewCustomer.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 16:36:38.898 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType7`2' from assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.ViewCustomer
+   at lambda_method749(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 16:36:38.916 +06:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not load type '<>f__AnonymousType7`2' from assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeMethodInfo.<get_Signature>g__LazyCreateSignature|25_0()
+   at System.Reflection.RuntimeMethodInfo.GetParameters()
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 16:36:38.928 +06:00 [ERR] Connection id "0HNDDH7OKU0OM", Request id "0HNDDH7OKU0OM:0000005D": An unhandled exception was thrown by the application.
+System.TypeLoadException: Could not load type '<>f__AnonymousType7`2' from assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.ViewCustomer
+   at lambda_method749(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-06-17 16:36:44.591 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType7`2' from assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.ViewCustomer
+   at lambda_method749(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 16:36:44.622 +06:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not load type '<>f__AnonymousType7`2' from assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeMethodInfo.<get_Signature>g__LazyCreateSignature|25_0()
+   at System.Reflection.RuntimeMethodInfo.GetParameters()
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 16:36:44.632 +06:00 [ERR] Connection id "0HNDDH7OKU0OM", Request id "0HNDDH7OKU0OM:0000005F": An unhandled exception was thrown by the application.
+System.TypeLoadException: Could not load type '<>f__AnonymousType7`2' from assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.ViewCustomer
+   at lambda_method749(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-06-17 16:38:32.021 +06:00 [INF] Application Starting...17-jan
+2025-06-17 16:38:32.060 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 16:38:32.061 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 16:38:34.233 +06:00 [INF] This is Nasim Reza
+2025-06-17 16:38:34.253 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 17:00:37.793 +06:00 [INF] Application Starting...17-jan
+2025-06-17 17:00:37.829 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 17:00:37.829 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 17:00:40.392 +06:00 [INF] This is Nasim Reza
+2025-06-17 17:00:40.419 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 18:12:29.199 +06:00 [INF] Application Starting...17-jan
+2025-06-17 18:12:29.320 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 18:12:29.320 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 18:12:31.942 +06:00 [INF] This is Nasim Reza
+2025-06-17 18:12:31.961 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 18:12:48.595 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 109
+2025-06-17 18:13:02.373 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 109
+2025-06-17 18:15:05.947 +06:00 [INF] Application Starting...17-jan
+2025-06-17 18:15:05.989 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 18:15:05.989 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 18:15:08.266 +06:00 [INF] This is Nasim Reza
+2025-06-17 18:15:08.281 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 18:40:31.817 +06:00 [INF] Application Starting...17-jan
+2025-06-17 18:40:31.894 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 18:40:31.894 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 18:40:34.330 +06:00 [INF] This is Nasim Reza
+2025-06-17 18:40:34.345 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 18:40:53.136 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetCustomers' expects parameter '@OrderBy', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 61
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 74
+ClientConnectionId:97950e22-916a-4424-aca3-a83c8d458075
+Error Number:201,State:4,Class:16
+2025-06-17 18:40:56.065 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetCustomers' expects parameter '@OrderBy', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 61
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 74
+ClientConnectionId:97950e22-916a-4424-aca3-a83c8d458075
+Error Number:201,State:4,Class:16
+2025-06-17 19:25:46.131 +06:00 [INF] Application Starting...17-jan
+2025-06-17 19:25:46.168 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 19:25:46.168 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 19:25:48.465 +06:00 [INF] This is Nasim Reza
+2025-06-17 19:25:48.484 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 19:26:00.664 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchases'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 86
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 55
+ClientConnectionId:122b4381-3a09-4c60-a00c-b483d786cc65
+Error Number:2812,State:62,Class:16
+2025-06-17 19:26:01.144 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 114
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 51
+ClientConnectionId:122b4381-3a09-4c60-a00c-b483d786cc65
+Error Number:2812,State:62,Class:16
+2025-06-17 19:26:01.684 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 141
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:122b4381-3a09-4c60-a00c-b483d786cc65
+Error Number:2812,State:62,Class:16
+2025-06-17 19:26:02.492 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 170
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 103
+ClientConnectionId:122b4381-3a09-4c60-a00c-b483d786cc65
+Error Number:2812,State:62,Class:16
+2025-06-17 19:26:18.682 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 170
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model)
+ClientConnectionId:122b4381-3a09-4c60-a00c-b483d786cc65
+Error Number:2812,State:62,Class:16
+2025-06-17 19:26:27.341 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id)
+2025-06-17 19:35:28.195 +06:00 [INF] Application Starting...17-jan
+2025-06-17 19:35:28.234 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 19:35:28.234 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 19:35:30.465 +06:00 [INF] This is Nasim Reza
+2025-06-17 19:35:30.496 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 19:39:20.522 +06:00 [INF] Application Starting...17-jan
+2025-06-17 19:39:20.560 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 19:39:20.560 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 19:39:22.600 +06:00 [INF] This is Nasim Reza
+2025-06-17 19:39:22.616 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-17 19:50:07.417 +06:00 [INF] Application Starting...17-jan
+2025-06-17 19:50:07.464 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-17 19:50:07.464 +06:00 [ERR] An error occurred while starting the application.
+2025-06-17 19:50:09.927 +06:00 [INF] This is Nasim Reza
+2025-06-17 19:50:09.944 +06:00 [INF] This is a test log entry to verify database logging.

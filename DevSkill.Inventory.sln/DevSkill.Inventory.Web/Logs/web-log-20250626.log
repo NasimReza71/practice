@@ -1,0 +1,59 @@
+2025-06-26 00:21:29.009 +06:00 [INF] Application Starting...17-jan
+2025-06-26 00:21:29.060 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-26 00:21:29.060 +06:00 [ERR] An error occurred while starting the application.
+2025-06-26 00:21:34.020 +06:00 [INF] This is Nasim Reza
+2025-06-26 00:21:34.042 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-26 01:12:07.494 +06:00 [INF] Application Starting...17-jan
+2025-06-26 01:12:07.538 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-26 01:12:07.538 +06:00 [ERR] An error occurred while starting the application.
+2025-06-26 01:12:10.358 +06:00 [INF] This is Nasim Reza
+2025-06-26 01:12:10.377 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-26 01:12:45.605 +06:00 [INF] Application Starting...17-jan
+2025-06-26 01:12:45.651 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-26 01:12:45.651 +06:00 [ERR] An error occurred while starting the application.
+2025-06-26 01:12:48.012 +06:00 [INF] This is Nasim Reza
+2025-06-26 01:12:48.032 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-26 01:13:03.057 +06:00 [ERR] Error loading access setups
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetAccessSetups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetAccessSetupsSP(Int32 pageIndex, Int32 pageSize, String orderBy, AccessSetupSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 551
+   at DevSkill.Inventory.Application.Features.AccessSetups.GetAccessSetupsSPQueryHandler.Handle(GetAccessSetupsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\AccessSetups\GetAccessSetupsSPQueryHandler.cs:line 24
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.AccessSetupsController.GetAccessSetupsJsonData(AccessSetupListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\AccessSetupsController.cs:line 51
+ClientConnectionId:d5ef7984-31e0-446d-9fec-c7051997654f
+Error Number:2812,State:62,Class:16
+2025-06-26 01:14:39.361 +06:00 [INF] Application Starting...17-jan
+2025-06-26 01:14:39.402 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-26 01:14:39.402 +06:00 [ERR] An error occurred while starting the application.
+2025-06-26 01:14:42.214 +06:00 [INF] This is Nasim Reza
+2025-06-26 01:14:42.231 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-26 01:14:57.225 +06:00 [ERR] Error loading access setups
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetAccessSetups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetAccessSetupsSP(Int32 pageIndex, Int32 pageSize, String orderBy, AccessSetupSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 551
+   at DevSkill.Inventory.Application.Features.AccessSetups.GetAccessSetupsSPQueryHandler.Handle(GetAccessSetupsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\AccessSetups\GetAccessSetupsSPQueryHandler.cs:line 24
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.AccessSetupsController.GetAccessSetupsJsonData(AccessSetupListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\AccessSetupsController.cs:line 51
+ClientConnectionId:f8743daf-90b2-4ced-9628-016ad4dd9e34
+Error Number:2812,State:62,Class:16
+2025-06-26 18:11:59.698 +06:00 [INF] Application Starting...17-jan
+2025-06-26 18:11:59.733 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-26 18:11:59.733 +06:00 [ERR] An error occurred while starting the application.
+2025-06-26 18:12:02.653 +06:00 [INF] This is Nasim Reza
+2025-06-26 18:12:02.668 +06:00 [INF] This is a test log entry to verify database logging.

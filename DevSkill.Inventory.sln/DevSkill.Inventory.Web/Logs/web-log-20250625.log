@@ -1,0 +1,49 @@
+2025-06-25 00:04:01.039 +06:00 [INF] Application Starting...17-jan
+2025-06-25 00:04:01.073 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-25 00:04:01.074 +06:00 [ERR] An error occurred while starting the application.
+2025-06-25 00:04:03.674 +06:00 [INF] This is Nasim Reza
+2025-06-25 00:04:03.693 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-25 00:39:12.675 +06:00 [INF] Application Starting...17-jan
+2025-06-25 00:39:12.719 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-25 00:39:12.719 +06:00 [ERR] An error occurred while starting the application.
+2025-06-25 00:39:15.201 +06:00 [INF] This is Nasim Reza
+2025-06-25 00:39:15.217 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-25 00:43:41.362 +06:00 [INF] Application Starting...17-jan
+2025-06-25 00:43:41.394 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-25 00:43:41.395 +06:00 [ERR] An error occurred while starting the application.
+2025-06-25 00:43:43.820 +06:00 [INF] This is Nasim Reza
+2025-06-25 00:43:43.838 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-25 00:52:42.388 +06:00 [ERR] Error loading service sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetServiceSales' expects parameter '@TotalCount', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetServiceSalesSP(Int32 pageIndex, Int32 pageSize, String order, ServiceSaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 241
+   at DevSkill.Inventory.Application.Features.ServiceSales.Queries.GetServiceSalesSPQueryHandler.Handle(GetServiceSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ServiceSales\Queries\GetServiceSalesSPQueryHandler.cs:line 25
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServiceSalesController.GetServiceSalesJsonData(ServiceSaleListModel model)
+ClientConnectionId:d6d9f18a-1c5c-41d9-a86d-fdc3eb753d30
+Error Number:201,State:4,Class:16
+2025-06-25 00:56:48.175 +06:00 [INF] Application Starting...17-jan
+2025-06-25 00:56:48.211 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-25 00:56:48.211 +06:00 [ERR] An error occurred while starting the application.
+2025-06-25 00:56:50.632 +06:00 [INF] This is Nasim Reza
+2025-06-25 00:56:50.652 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-25 01:00:58.200 +06:00 [INF] This is Nasim Reza
+2025-06-25 01:00:58.202 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-25 01:01:16.940 +06:00 [INF] Application Starting...17-jan
+2025-06-25 01:01:16.978 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-25 01:01:16.978 +06:00 [ERR] An error occurred while starting the application.
+2025-06-25 01:01:19.356 +06:00 [INF] This is Nasim Reza
+2025-06-25 01:01:19.377 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-25 01:38:41.771 +06:00 [INF] Application Starting...17-jan
+2025-06-25 01:38:41.808 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-25 01:38:41.808 +06:00 [ERR] An error occurred while starting the application.
+2025-06-25 01:38:45.016 +06:00 [INF] This is Nasim Reza
+2025-06-25 01:38:45.038 +06:00 [INF] This is a test log entry to verify database logging.

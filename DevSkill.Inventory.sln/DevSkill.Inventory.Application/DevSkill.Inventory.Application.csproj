@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevSkill.Inventory.Domain\DevSkill.Inventory.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\BalanceAdjustments\Commands\" />
+    <Folder Include="Features\DebitVouchers\Commands\" />
+    <Folder Include="Features\ProductPlus\Commands\" />
+    <Folder Include="Features\PurchaseReturns\Commands\" />
+    <Folder Include="Features\Quotations\Commands\" />
+    <Folder Include="Features\SalesReturns\Commands\" />
+    <Folder Include="Features\Sales\Commands\" />
+    <Folder Include="Features\ServiceFeatures\Commands\" />
+    <Folder Include="Features\StaffPayments\Commands\" />
+    <Folder Include="Features\Staffs\Commands\" />
+    <Folder Include="Features\SupplierPays\Commands\" />
+    <Folder Include="Features\Suppliers\Commands\" />
+    <Folder Include="Features\TransferAccounts\Commands\" />
+    <Folder Include="Features\Users\Commands\" />
+  </ItemGroup>
+
+</Project>

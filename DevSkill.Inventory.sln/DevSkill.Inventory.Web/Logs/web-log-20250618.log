@@ -1,0 +1,400 @@
+2025-06-18 01:15:19.597 +06:00 [INF] Application Starting...17-jan
+2025-06-18 01:15:19.755 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 01:15:19.755 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 01:15:51.250 +06:00 [INF] This is Nasim Reza
+2025-06-18 01:15:51.589 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 01:17:55.405 +06:00 [INF] Application Starting...17-jan
+2025-06-18 01:17:55.436 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 01:17:55.436 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 01:17:58.254 +06:00 [INF] This is Nasim Reza
+2025-06-18 01:17:58.273 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 01:21:21.010 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 92
+2025-06-18 01:21:21.132 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 92
+2025-06-18 01:43:24.751 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchases'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 86
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 55
+ClientConnectionId:214cb464-aae5-4206-9326-49f5210a59ca
+Error Number:2812,State:62,Class:16
+2025-06-18 01:56:08.214 +06:00 [INF] Application Starting...17-jan
+2025-06-18 01:56:08.256 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 01:56:08.256 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 01:56:10.947 +06:00 [INF] This is Nasim Reza
+2025-06-18 01:56:10.964 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 01:57:57.001 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 92
+2025-06-18 02:01:19.659 +06:00 [INF] Application Starting...17-jan
+2025-06-18 02:01:19.695 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 02:01:19.695 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 02:01:22.506 +06:00 [INF] This is Nasim Reza
+2025-06-18 02:01:22.525 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 02:34:14.430 +06:00 [INF] Application Starting...17-jan
+2025-06-18 02:34:14.521 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 02:34:14.521 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 02:34:16.908 +06:00 [INF] This is Nasim Reza
+2025-06-18 02:34:16.933 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 02:36:16.355 +06:00 [INF] Application Starting...17-jan
+2025-06-18 02:36:16.434 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 02:36:16.434 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 02:36:18.508 +06:00 [INF] This is Nasim Reza
+2025-06-18 02:36:18.547 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 02:37:15.367 +06:00 [INF] Application Starting...17-jan
+2025-06-18 02:37:15.402 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 02:37:15.402 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 02:37:17.614 +06:00 [INF] This is Nasim Reza
+2025-06-18 02:37:17.631 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 02:38:07.141 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 91
+2025-06-18 02:38:40.908 +06:00 [INF] Application Starting...17-jan
+2025-06-18 02:38:40.946 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 02:38:40.946 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 02:38:42.993 +06:00 [INF] This is Nasim Reza
+2025-06-18 02:38:43.010 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 02:58:18.614 +06:00 [INF] Application Starting...17-jan
+2025-06-18 02:58:18.655 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 02:58:18.655 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 02:58:21.247 +06:00 [INF] This is Nasim Reza
+2025-06-18 02:58:21.339 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 03:02:15.482 +06:00 [INF] Application Starting...17-jan
+2025-06-18 03:02:15.516 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 03:02:15.516 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 03:02:17.698 +06:00 [INF] This is Nasim Reza
+2025-06-18 03:02:17.715 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 03:05:29.752 +06:00 [ERR] Failed to delete customer
+System.Exception: Customer not found
+   at DevSkill.Inventory.Application.Features.Customers.Commands.CustomerDeleteCommandHandler.Handle(CustomerDeleteCommand request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Commands\CustomerDeleteCommandHandler.cs:line 22
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`1.<>c__DisplayClass1_0.<<Handle>g__Handler|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.Delete(Guid id)
+2025-06-18 03:09:05.604 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetCustomers' expects parameter '@OrderBy', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 61
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model)
+ClientConnectionId:bf1e128e-64b8-47b9-89f5-5456c33af090
+Error Number:201,State:4,Class:16
+2025-06-18 03:55:44.944 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchases'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 86
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model)
+ClientConnectionId:6f421ad1-4eef-4209-a817-0882674bcab7
+Error Number:2812,State:62,Class:16
+2025-06-18 03:55:46.611 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 114
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model)
+ClientConnectionId:6f421ad1-4eef-4209-a817-0882674bcab7
+Error Number:2812,State:62,Class:16
+2025-06-18 04:28:39.460 +06:00 [INF] Application Starting...17-jan
+2025-06-18 04:28:39.492 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 04:28:39.492 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 04:28:42.339 +06:00 [INF] This is Nasim Reza
+2025-06-18 04:28:42.422 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 05:06:40.740 +06:00 [INF] Application Starting...17-jan
+2025-06-18 05:06:40.773 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 05:06:40.773 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 05:06:44.123 +06:00 [INF] This is Nasim Reza
+2025-06-18 05:06:44.144 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 05:11:34.936 +06:00 [INF] Application Starting...17-jan
+2025-06-18 05:11:34.969 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 05:11:34.969 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 05:11:38.098 +06:00 [INF] This is Nasim Reza
+2025-06-18 05:11:38.126 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 05:13:59.858 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The partial view '_ModalNewCustomerPartial' was not found. The following locations were searched:
+/Areas/Admin/Views/Customers/_ModalNewCustomerPartial.cshtml
+/Areas/Admin/Views/Shared/_ModalNewCustomerPartial.cshtml
+/Views/Shared/_ModalNewCustomerPartial.cshtml
+/Pages/Shared/_ModalNewCustomerPartial.cshtml
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCoreGeneratedDocument.Areas_Admin_Views_Customers_CustomerList.ExecuteAsync() in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Views\Customers\CustomerList.cshtml:line 5
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-18 05:17:46.366 +06:00 [INF] Application Starting...17-jan
+2025-06-18 05:17:46.408 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 05:17:46.409 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 05:17:51.066 +06:00 [INF] This is Nasim Reza
+2025-06-18 05:17:51.084 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 05:19:57.531 +06:00 [INF] Application Starting...17-jan
+2025-06-18 05:19:57.565 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 05:19:57.565 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 05:20:01.188 +06:00 [INF] This is Nasim Reza
+2025-06-18 05:20:01.206 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 05:30:05.635 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 05:30:05.637 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 05:30:09.485 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 05:30:09.486 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 05:46:13.880 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-06-18 05:46:13.900 +06:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Customers_CustomerList+<ExecuteAsync>d__18#5' in assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-18 05:46:13.914 +06:00 [ERR] Connection id "0HNDDULTCRVHB", Request id "0HNDDULTCRVHB:00000001": An unhandled exception was thrown by the application.
+2025-06-18 05:46:31.833 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-06-18 05:46:31.839 +06:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Customers_CustomerList+<ExecuteAsync>d__18#5' in assembly 'DevSkill.Inventory.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-18 05:46:59.558 +06:00 [INF] Application Starting...17-jan
+2025-06-18 05:46:59.596 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 05:46:59.596 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 05:47:03.662 +06:00 [INF] This is Nasim Reza
+2025-06-18 05:47:03.678 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 06:52:32.058 +06:00 [INF] Application Starting...17-jan
+2025-06-18 06:52:32.095 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 06:52:32.095 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 06:52:35.275 +06:00 [INF] This is Nasim Reza
+2025-06-18 06:52:35.300 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 06:53:28.656 +06:00 [INF] Application Starting...17-jan
+2025-06-18 06:53:28.690 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 06:53:28.690 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 06:53:31.746 +06:00 [INF] This is Nasim Reza
+2025-06-18 06:53:31.763 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 06:57:38.957 +06:00 [INF] This is Nasim Reza
+2025-06-18 06:57:38.958 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 06:57:44.933 +06:00 [ERR] Error loading purchases
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchases'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchasesSP(Int32 pageIndex, Int32 pageSize, String orderBy, PurchaseSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 86
+   at DevSkill.Inventory.Application.Features.Purchases.Queries.GetPurchasesSPQueryHandler.Handle(GetPurchasesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Purchases\Queries\GetPurchasesSPQueryHandler.cs:line 22
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchasesJsonData(PurchaseListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 55
+ClientConnectionId:b8a1e37c-2d74-4855-888c-5aa2d4262bd8
+Error Number:2812,State:62,Class:16
+2025-06-18 06:58:49.840 +06:00 [INF] Application Starting...17-jan
+2025-06-18 06:58:49.874 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 06:58:49.874 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 06:58:52.980 +06:00 [INF] This is Nasim Reza
+2025-06-18 06:58:53.001 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 07:04:53.814 +06:00 [INF] Application Starting...17-jan
+2025-06-18 07:04:53.847 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 07:04:53.847 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 07:04:57.459 +06:00 [INF] This is Nasim Reza
+2025-06-18 07:04:57.475 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 07:20:58.774 +06:00 [INF] Application Starting...17-jan
+2025-06-18 07:20:58.809 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 07:20:58.809 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 07:21:02.458 +06:00 [INF] This is Nasim Reza
+2025-06-18 07:21:02.480 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 07:25:52.559 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:25:52.561 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:25:55.183 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:25:55.184 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:25:57.141 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:25:57.144 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:26:01.686 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:26:01.687 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:28:17.909 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:28:17.911 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:28:19.815 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:28:19.817 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:28:40.941 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:28:40.943 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:28:43.281 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:28:43.283 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:28:52.881 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:28:52.884 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:28:56.557 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:28:56.559 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:29:01.945 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:29:01.946 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:29:54.450 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:29:54.452 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:30:57.357 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:30:57.388 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:35:26.274 +06:00 [INF] Application Starting...17-jan
+2025-06-18 07:35:26.314 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 07:35:26.314 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 07:35:29.459 +06:00 [INF] This is Nasim Reza
+2025-06-18 07:35:29.476 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 07:35:44.630 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:35:44.633 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:36:18.035 +06:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-06-18 07:36:18.036 +06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-06-18 07:54:25.632 +06:00 [INF] Application Starting...17-jan
+2025-06-18 07:54:25.668 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 07:54:25.668 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 07:54:28.947 +06:00 [INF] This is Nasim Reza
+2025-06-18 07:54:28.964 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 08:06:53.930 +06:00 [INF] Application Starting...17-jan
+2025-06-18 08:06:53.963 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 08:06:53.963 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 08:06:59.156 +06:00 [INF] This is Nasim Reza
+2025-06-18 08:06:59.173 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 13:49:13.312 +06:00 [INF] Application Starting...17-jan
+2025-06-18 13:49:13.355 +06:00 [INF] This is Nasim Reza Hridoy
+2025-06-18 13:49:13.355 +06:00 [ERR] An error occurred while starting the application.
+2025-06-18 13:49:17.397 +06:00 [INF] This is Nasim Reza
+2025-06-18 13:49:17.419 +06:00 [INF] This is a test log entry to verify database logging.
+2025-06-18 13:49:26.806 +06:00 [ERR] Error loading sales return data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSalesReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesReturnsSP(Int32 pageIndex, Int32 pageSize, String order, SalesReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 141
+   at DevSkill.Inventory.Application.Features.SalesReturns.Queries.GetSalesReturnsSPQueryHandler.Handle(GetSalesReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\SalesReturns\Queries\GetSalesReturnsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesReturnsJsonData(SalesReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 99
+ClientConnectionId:c224a2e9-9d71-4657-9205-6fc5617d48ae
+Error Number:2812,State:62,Class:16
+2025-06-18 13:49:28.884 +06:00 [ERR] Error loading purchase returns
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPurchaseReturns'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetPurchaseReturnsSP(Int32 pageIndex, Int32 pageSize, String order, PurchaseReturnSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 170
+   at DevSkill.Inventory.Application.Features.PurchaseReturns.Queries.GetPurchaseReturnsSPQueryHandler.Handle(GetPurchaseReturnsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\PurchaseReturns\Queries\GetPurchaseReturnsSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.PurchasesController.GetPurchaseReturnsJsonData(PurchaseReturnListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\PurchasesController.cs:line 103
+ClientConnectionId:c224a2e9-9d71-4657-9205-6fc5617d48ae
+Error Number:2812,State:62,Class:16
+2025-06-18 13:49:29.912 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method797(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36
+2025-06-18 13:49:32.397 +06:00 [ERR] Error loading service data
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ServiceSearchModel -> ServiceSearchDto
+DevSkill.Inventory.Web.Areas.Admin.Models.ServicesModels.ServiceSearchModel -> DevSkill.Inventory.Domain.Dtos.ServiceSearchDto
+   at lambda_method797(Closure, Object, ServiceSearchDto, ResolutionContext)
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ServicesController.GetServicesJsonData(ServiceListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ServicesController.cs:line 36

@@ -1,0 +1,236 @@
+2025-07-06 12:32:12.192 +06:00 [INF] Application Starting...17-jan
+2025-07-06 12:32:12.236 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-06 12:32:12.236 +06:00 [ERR] An error occurred while starting the application.
+2025-07-06 12:32:20.921 +06:00 [INF] This is Nasim Reza
+2025-07-06 12:32:20.939 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-06 12:36:25.636 +06:00 [INF] Application Starting...17-jan
+2025-07-06 12:36:25.701 +06:00 [INF] This is Nasim Reza Hridoy
+2025-07-06 12:36:25.701 +06:00 [ERR] An error occurred while starting the application.
+2025-07-06 12:36:27.872 +06:00 [INF] This is Nasim Reza
+2025-07-06 12:36:27.887 +06:00 [INF] This is a test log entry to verify database logging.
+2025-07-06 12:36:35.806 +06:00 [ERR] There was a problem getting products
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetProducts' expects parameter '@OrderBy', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetProductsSP(Int32 pageIndex, Int32 pageSize, String order, ProductSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 67
+   at DevSkill.Inventory.Application.Features.Products.Queries.GetProductsQueryHandler.Handle(GetProductsSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Products\Queries\GetProductsQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductsController.GetProductsJsonData(ProductListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductsController.cs:line 197
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:36:40.206 +06:00 [ERR] Error loading customers
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 124
+2025-07-06 12:36:41.240 +06:00 [ERR] Error loading customers
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 124
+2025-07-06 12:36:43.953 +06:00 [ERR] Error loading customers
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 124
+2025-07-06 12:36:44.604 +06:00 [ERR] Error loading customers
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 124
+2025-07-06 12:36:45.832 +06:00 [ERR] Error loading customers
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetCustomers' expects parameter '@OrderBy', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetCustomersSP(Int32 pageIndex, Int32 pageSize, String orderBy, CustomerSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 91
+   at DevSkill.Inventory.Application.Features.Customers.Queries.GetCustomersSPQueryHandler.Handle(GetCustomersSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Customers\Queries\GetCustomersSPQueryHandler.cs:line 21
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 132
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:36:46.497 +06:00 [ERR] Error loading customers
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 124
+2025-07-06 12:36:57.988 +06:00 [ERR] Error loading customers
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.CustomersController.GetCustomersJsonData(CustomerListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\CustomersController.cs:line 124
+2025-07-06 12:37:28.297 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:28.803 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:30.029 +06:00 [ERR] Error loading ProductPlus data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetProductPluses' expects parameter '@OrderBy', which was not supplied.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetProductPlusSP(Int32 pageIndex, Int32 pageSize, String orderBy, ProductPlusSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 581
+   at DevSkill.Inventory.Application.Features.ProductPlus.Queries.GetProductPlusSPQueryHandler.Handle(GetProductPlusSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ProductPlus\Queries\GetProductPlusSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 51
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:37:30.542 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:31.096 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:31.569 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:32.049 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:33.990 +06:00 [ERR] Error loading ProductPlus data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetProductPluses' expects parameter '@OrderBy', which was not supplied.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetProductPlusSP(Int32 pageIndex, Int32 pageSize, String orderBy, ProductPlusSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 581
+   at DevSkill.Inventory.Application.Features.ProductPlus.Queries.GetProductPlusSPQueryHandler.Handle(GetProductPlusSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ProductPlus\Queries\GetProductPlusSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 51
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:37:37.153 +06:00 [ERR] Error loading ProductPlus data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetProductPluses' expects parameter '@OrderBy', which was not supplied.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetProductPlusSP(Int32 pageIndex, Int32 pageSize, String orderBy, ProductPlusSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 581
+   at DevSkill.Inventory.Application.Features.ProductPlus.Queries.GetProductPlusSPQueryHandler.Handle(GetProductPlusSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ProductPlus\Queries\GetProductPlusSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 51
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:37:40.026 +06:00 [ERR] Error loading ProductPlus data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetProductPluses' expects parameter '@OrderBy', which was not supplied.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetProductPlusSP(Int32 pageIndex, Int32 pageSize, String orderBy, ProductPlusSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 581
+   at DevSkill.Inventory.Application.Features.ProductPlus.Queries.GetProductPlusSPQueryHandler.Handle(GetProductPlusSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ProductPlus\Queries\GetProductPlusSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 51
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:37:46.757 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:47.449 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:48.501 +06:00 [ERR] Error loading ProductPlus data
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetProductPluses' expects parameter '@OrderBy', which was not supplied.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetProductPlusSP(Int32 pageIndex, Int32 pageSize, String orderBy, ProductPlusSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 581
+   at DevSkill.Inventory.Application.Features.ProductPlus.Queries.GetProductPlusSPQueryHandler.Handle(GetProductPlusSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\ProductPlus\Queries\GetProductPlusSPQueryHandler.cs:line 23
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 51
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:201,State:4,Class:16
+2025-07-06 12:37:48.764 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:49.310 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:50.802 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:51.646 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:53.198 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:55.085 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:56.684 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:37:58.561 +06:00 [ERR] Error loading ProductPlus data
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.ProductPlusController.GetProductPlusJsonData(ProductPlusListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\ProductPlusController.cs:line 42
+2025-07-06 12:38:05.112 +06:00 [ERR] Error loading sales
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetSales'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.ExecuteQueryAsync[TReturn](DbCommand command) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 237
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 100
+   at DevSkill.Inventory.Infrastructure.Utilities.SqlUtility.QueryWithStoredProcedureAsync[TReturn](String storedProcedureName, IDictionary`2 parameters, IDictionary`2 outParameters) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\Utilities\SqlUtility.cs:line 106
+   at DevSkill.Inventory.Infrastructure.ApplicationUnitOfWork.GetSalesSP(Int32 pageIndex, Int32 pageSize, String orderBy, SaleSearchDto search) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\ApplicationUnitOfWork.cs:line 144
+   at DevSkill.Inventory.Application.Features.Sales.Queries.GetSalesSPQueryHandler.Handle(GetSalesSPQuery request, CancellationToken cancellationToken) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Application\Features\Sales\Queries\GetSalesSPQueryHandler.cs:line 24
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.SalesController.GetSalesJsonData(SalesListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\SalesController.cs:line 51
+ClientConnectionId:bb9f511a-f11b-4938-ba87-00141c693b47
+Error Number:2812,State:62,Class:16
+2025-07-06 12:38:09.466 +06:00 [ERR] Error loading quotations
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.QuotationsController.GetQuotationsJsonData(QuotationListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\QuotationsController.cs:line 39
+2025-07-06 12:38:10.137 +06:00 [ERR] Error loading quotations
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DevSkill.Inventory.Domain.DataTables.FormatSortExpression(String[] columns) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\DataTables.cs:line 53
+   at DevSkill.Inventory.Web.Areas.Admin.Controllers.QuotationsController.GetQuotationsJsonData(QuotationListModel model) in C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Web\Areas\Admin\Controllers\QuotationsController.cs:line 39

@@ -1,0 +1,16 @@
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\bin\Debug\net9.0\DevSkill.Inventory.Infrastructure.deps.json
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\bin\Debug\net9.0\DevSkill.Inventory.Infrastructure.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\bin\Debug\net9.0\DevSkill.Inventory.Infrastructure.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\bin\Debug\net9.0\DevSkill.Inventory.Domain.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\bin\Debug\net9.0\DevSkill.Inventory.Domain.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.AssemblyInfo.cs
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.sourcelink.json
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.0A9D95B1.Up2Date
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\refint\DevSkill.Inventory.Infrastructure.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\DevSkill.Inventory.Infrastructure.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Infrastructure\obj\Debug\net9.0\ref\DevSkill.Inventory.Infrastructure.dll

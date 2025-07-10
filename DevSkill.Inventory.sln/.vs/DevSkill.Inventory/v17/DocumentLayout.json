@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\views\\account\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\views\\account\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF8E894-0665-E909-5829-D7153E0E25C2}|DevSkill.Inventory.Infrastructure\\DevSkill.Inventory.Infrastructure.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.infrastructure\\identity\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF8E894-0665-E909-5829-D7153E0E25C2}|DevSkill.Inventory.Infrastructure\\DevSkill.Inventory.Infrastructure.csproj|solutionrelative:devskill.inventory.infrastructure\\identity\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|c:\\users\\nasim reza\\desktop\\final project\\aspnet-b11-nasim\\src\\devskill.inventory.sln\\devskill.inventory.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD4484-1C5B-DDAD-4D95-B9CFFDFF030C}|DevSkill.Inventory.Web\\DevSkill.Inventory.Web.csproj|solutionrelative:devskill.inventory.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T07:32:15.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Program.cs",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Program.cs",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:53:48.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Infrastructure\\Identity\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Infrastructure\\Identity\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Infrastructure\\Identity\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "DevSkill.Inventory.Infrastructure\\Identity\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:53:13.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T14:58:13.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Account\\LoginUser.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Views\\Account\\LoginUser.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Account\\LoginUser.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Views\\Account\\LoginUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T14:54:56.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T14:44:38.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:25:26.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T13:41:16.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T13:41:00.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:38:06.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DevSkill.Inventory.Web\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nasim Reza\\Desktop\\Final Project\\aspnet-b11-nasim\\src\\DevSkill.Inventory.sln\\DevSkill.Inventory.Web\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DevSkill.Inventory.Web\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAMwPIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T12:57:56.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

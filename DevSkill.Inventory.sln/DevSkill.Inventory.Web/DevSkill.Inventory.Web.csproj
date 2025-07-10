@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-DevSkill.Inventory.Web-bf90d923-0c06-4d64-becc-fc3cf3119240</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="8.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Logs\" />
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\css\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
+    <Folder Include="wwwroot\lib\jquery-validation-unobtrusive\" />
+    <Folder Include="wwwroot\lib\jquery-validation\" />
+    <Folder Include="wwwroot\lib\jquery-validation\dist\" />
+    <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\lib\jquery\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevSkill.Inventory.Application\DevSkill.Inventory.Application.csproj" />
+    <ProjectReference Include="..\DevSkill.Inventory.Domain\DevSkill.Inventory.Domain.csproj" />
+    <ProjectReference Include="..\DevSkill.Inventory.Infrastructure\DevSkill.Inventory.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

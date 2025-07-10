@@ -1,0 +1,13 @@
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\bin\Debug\net9.0\DevSkill.Inventory.Domain.deps.json
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\bin\Debug\net9.0\DevSkill.Inventory.Domain.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\bin\Debug\net9.0\DevSkill.Inventory.Domain.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.AssemblyInfoInputs.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.AssemblyInfo.cs
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.sourcelink.json
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\refint\DevSkill.Inventory.Domain.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.pdb
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\ref\DevSkill.Inventory.Domain.dll
+C:\Users\Nasim Reza\Desktop\Final Project\aspnet-b11-nasim\src\DevSkill.Inventory.sln\DevSkill.Inventory.Domain\obj\Debug\net9.0\DevSkill.Inventory.Domain.csproj.AssemblyReference.cache
